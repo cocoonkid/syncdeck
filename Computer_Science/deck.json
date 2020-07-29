@@ -3,6 +3,623 @@
     "children": [
         {
             "__type__": "Deck",
+            "children": [
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "a6a24430-6d5b-11e6-adf3-8c705a50cbf0",
+                    "deck_config_uuid": "a69dd698-6d5b-11e6-adf3-8c705a50cbf0",
+                    "desc": "Please see the <a href='https://ankiweb.net/shared/info/'>shared deck page</a> for more info.",
+                    "dyn": 0,
+                    "extendNew": 1,
+                    "extendRev": 50,
+                    "media_files": [],
+                    "mid": "1467568254113",
+                    "name": "Commands",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What does this command do:&nbsp;<b>git add . &nbsp;</b>",
+                                "It adds everything inside the current working directory to the index."
+                            ],
+                            "flags": 0,
+                            "guid": "bFER[=-<|E",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What commands will join everything from the branch \"bigIdea\" to be part of the \"master\" branch?",
+                                "<pre>git checkout master</pre>\n<pre>git merge bigIdea</pre>"
+                            ],
+                            "flags": 0,
+                            "guid": "xj?aKvn]u;",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What is the <b>--</b> option in <b>git log</b>&nbsp;used for?<br />",
+                                "To see the commit history for a file, even if the file has been deleted.<br />"
+                            ],
+                            "flags": 0,
+                            "guid": "en>uh_WPEG",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What does the command do: <b>git reset --soft HEAD~</b>",
+                                "Undo the last commit. The affected files will be back on stage again."
+                            ],
+                            "flags": 0,
+                            "guid": "Bb9(y,?O!N",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What does <b>git reset --hard HEAD~</b>&nbsp;do? (instead of HEAD~ it could be also a commit SHA-1 or another reference)",
+                                "Undo the last commit, unstage files AND undo any changes in the working directory. (Not tracked files won't be affected)"
+                            ],
+                            "flags": 0,
+                            "guid": "e?#@Ae7yYi",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What is the difference between:<br><pre>git checkout -f</pre> and <pre>git reset --hard HEAD</pre>?",
+                                "None, with these parameters they do exactly the same."
+                            ],
+                            "flags": 0,
+                            "guid": "v*,Ks",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "Use your editor to manually solve conflicts during merge/rebase and after resolving mark file as resolved with:",
+                                "git add <i>resolved-file or</i><div>git rm <i>resolved-file</i></div>"
+                            ],
+                            "flags": 0,
+                            "guid": "x:&=qX<?g[",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": [
+                                "uncertain"
+                            ]
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What are limitations of the command that changes the message of the last commit (<span style=\"font-family: monospace\">git commit --amend</span>)?",
+                                "It only works before the commit has been pushed to remote repo."
+                            ],
+                            "flags": 0,
+                            "guid": "p}K},k:N*K",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": [
+                                "git",
+                                "shell"
+                            ]
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "How do you initiate bisect algorithm in git (several commands)",
+                                "<div><div>Suppose you are trying to find the commit that broke a feature that was known to work in version v2.6.13-rc2 of your project. You start a bisect session as follows:</div><div><br /></div><div>$ git bisect start</div><div>$ git bisect bad # Current version is bad</div><div>$ git bisect good v2.6.13-rc2 # v2.6.13-rc2 is known to be good</div></div><div><br /></div><a href=\"https://git-scm.com/docs/git-bisect\">https://git-scm.com/docs/git-bisect</a>"
+                            ],
+                            "flags": 0,
+                            "guid": "z+Mb^@:H2B",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": [
+                                "command",
+                                "git",
+                                "shell"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "__type__": "Deck",
+                    "children": [],
+                    "crowdanki_uuid": "a69e2b7a-6d5b-11e6-adf3-8c705a50cbf0",
+                    "deck_config_uuid": "a69e3016-6d5b-11e6-adf3-8c705a50cbf0",
+                    "desc": "Please see the <a href='https://ankiweb.net/shared/info/2107904924'>shared deck page</a> for more info.",
+                    "dyn": 0,
+                    "extendNew": 10,
+                    "extendRev": 50,
+                    "media_files": [],
+                    "mid": 1408638528289,
+                    "name": "General Information",
+                    "notes": [
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What is the main characteristic of a  <b>distributed\n                  version control system\n                  (DVCS)</b>?",
+                                "A distributed version control system has no\n                  central server which\n                  stores the data. Every local copy contains the full history of the\n                  source code.\n                  \n               "
+                            ],
+                            "flags": 0,
+                            "guid": "b#GLS`mD*f",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "Does the use of a\n                  <b>DVCS</b> require a\n                  central\n                  code\n                  repository?\n                  \n               ",
+                                "No."
+                            ],
+                            "flags": 0,
+                            "guid": "CPlCr{/4m(",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "Where does Git\n                  <b>commit</b> file changes to?<br />",
+                                "To the local repository."
+                            ],
+                            "flags": 0,
+                            "guid": "O9BDWhx,@(",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What happens when you <b>clone</b> a\n                  repository with                    Git?",
+                                "An exact copy of the\n                  repository is created locally.<br />"
+                            ],
+                            "flags": 0,
+                            "guid": "Dkiv9+0iTX",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "Does the local clone of a remote repository include the\n                  complete history of the source code?",
+                                "Yes."
+                            ],
+                            "flags": 0,
+                            "guid": "M,[&ZR-I$S",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What's the meaning of <b>master branch</b>?",
+                                "The \"master\" in Git is the default branch, which generally represents the most stable code."
+                            ],
+                            "flags": 0,
+                            "guid": "bm{uO(^4b/",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What is a <b>commit</b>?",
+                                "A commit is a pointer to a spot&nbsp;(revision)&nbsp;on the code history."
+                            ],
+                            "flags": 0,
+                            "guid": "LknXA>P{gu",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "How are Git commits <b>identified</b>?",
+                                "Instead of numbering commits, Git uses the code contents of the commit to create a unique, 40 character SHA-1 hash."
+                            ],
+                            "flags": 0,
+                            "guid": "M!|;;-isLS",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "Does a branch created in a repository,&nbsp;which was cloned from another repository, need to have a&nbsp;counterpart in the&nbsp;remote repository?<br /> ",
+                                "No it doesn't."
+                            ],
+                            "flags": 0,
+                            "guid": "cr,S-na/4y",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "Which two steps are neccessary to persist modifications on a file in the repository?<br />",
+                                "1. Staging (mark the file to be relevant for Git) = adding the file to the index.<br />2. Commiting: storing the changes in the Git repository.<br />"
+                            ],
+                            "flags": 0,
+                            "guid": "wp*ChGY&nd",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What does the term <b>staging</b> describe?",
+                                "Marking changes as relevant for the version control, by adding them to the index."
+                            ],
+                            "flags": 0,
+                            "guid": "s2b*|BtuO2",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What is a <b>Revision</b>?<br />",
+                                "A revision represents a version of the source code. Git identifies\n                                               revisions\n                                               with SHA-1 IDs using a commit object. SHA-1 IDs are 160 bits long and are\n                                               represented\n                                               in\n                                               hexadecimal. The latest version can be addressed\n                                               via\n                                               HEAD, the version before that via\n                                               HEAD~1\n                                               and so on."
+                            ],
+                            "flags": 0,
+                            "guid": "DF$yg5cnTs",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "In which file does Git store <b>global settings</b>?<br />",
+                                "In the <b>.gitconfig</b> file.<br />"
+                            ],
+                            "flags": 0,
+                            "guid": "cq9}90`8%l",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "Which file tells Git which files and directories to <b>ignore</b>?<br />",
+                                "<pre>.gitignore</pre>"
+                            ],
+                            "flags": 0,
+                            "guid": "p{@pLqf8~)",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What is the difference between <b>local .gitignore</b> and <b>global .gitignore</b> files, regarding visibility?<br />",
+                                "The local\n               .gitignore\n               file can be committed into the Git repository and\n               therefore is visible\n               to everyone who clones the repository. The\n               global\n               .gitignore\n               file is only\n               locally visible.\n               \n            "
+                            ],
+                            "flags": 0,
+                            "guid": "bALcFrS[,0",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "How are <b>empty directories</b> handled under Git version control / by common practice?",
+                                "Git ignores empty directories, i.e. it does not put them under version control. Common practice for tracking an empty directory though, is to put a file called <b>.gitkeep</b> into such a directory.<br />"
+                            ],
+                            "flags": 0,
+                            "guid": "julVRci`rj",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What does the command <b>git reflog</b>&nbsp;do?<br />",
+                                "It displays the history of the complete changes of the current branch, based on the HEAD revision.<br />"
+                            ],
+                            "flags": 0,
+                            "guid": "s$go8!a4M`",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "Does <b>git reflog</b>&nbsp;also contain deleted commits?",
+                                "Yes."
+                            ],
+                            "flags": 0,
+                            "guid": "o7*md3rMpY",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "How is the <b>default branch</b> called in Git?<br />",
+                                "Master."
+                            ],
+                            "flags": 0,
+                            "guid": "KQ=K|X^!V@",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What does the term <b>merging</b>&nbsp;describe?<br />",
+                                "The process of combining changes of two branches."
+                            ],
+                            "flags": 0,
+                            "guid": "IMAr1$Qa%~",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What is a <b>merge conflict</b>?<br />",
+                                "A merge conflict occurs, if two people have modified the same content and Git cannot automatically determine how both changes should be applied.<br />"
+                            ],
+                            "flags": 0,
+                            "guid": "u}r83:+:~S",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What does the <b>rebase</b>&nbsp;command do?<br>",
+                                "In general terms - rewrites history. E.g: Combining several commits into<br>                  one commit. Or replaying changes from one branch on top of the other."
+                            ],
+                            "flags": 0,
+                            "guid": "ioQ[YMk002",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What functionality does the <b>stash</b> command add?<br />",
+                                "Saving the current uncommmitted changes and&nbsp;checkout&nbsp;the last committed revision. This allows pulling-in the latest changes or to develop an urgent fix. Afterwards the stashed changes can be restored, which will reapply the changes to the current version of the source code.<br /> "
+                            ],
+                            "flags": 0,
+                            "guid": "i`-!UI5`9n",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What's the rule of thumb, concerning the <b>stash</b>&nbsp;command?<br />",
+                                "It should be the exception to using Git. Typically you would create new branches for new features and switch between branches.<br />"
+                            ],
+                            "flags": 0,
+                            "guid": "My4;,HZvH:",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What is a <b>patch file</b>?<br />",
+                                "A text file that contains changes to the source code."
+                            ],
+                            "flags": 0,
+                            "guid": "m5arfU*|ZX",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What is an <b>alias</b> in Git?",
+                                "An alias in Git allows you to setup your own Git command. E.g. you can define an alias which is a short form of your own favorite commands or you can combine several commands with an alias."
+                            ],
+                            "flags": 0,
+                            "guid": "PE`j{-UNE?",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "Name two <b>transport types</b>&nbsp;that are supported protocols for Git checkouts",
+                                "The native Git protocol is <b>git</b>, alternatively the <b>http</b> protocol is also supported."
+                            ],
+                            "flags": 0,
+                            "guid": "BKdJz<y,i?",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What happens in regards to naming of the original repository, when <b>cloning</b> a remote repository?<br />",
+                                "The original repository will automatically be called \"origin\".<br />"
+                            ],
+                            "flags": 0,
+                            "guid": "xDNKnks;P;",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What is the possibility of using the <b>HTTP protocol</b> with Git especially helpful for?",
+                                "If a firewall blocks all requests other than http.<br />"
+                            ],
+                            "flags": 0,
+                            "guid": "ykx4hD1f`?",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "Which are the two variants of <b>ssh keys</b>?<br />",
+                                "Public and private.<br />"
+                            ],
+                            "flags": 0,
+                            "guid": "K5v/_?3y;F",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What does <b>rev~</b> stand for?",
+                                "The first parent of a revision \"rev\""
+                            ],
+                            "flags": 0,
+                            "guid": "NvGA`?8=%",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What is the starting point of the scope of <b>.gitignore</b> files?",
+                                "They define ignore definitions for the whole directory tree, starting from the point where the .gitignore file itself resides."
+                            ],
+                            "flags": 0,
+                            "guid": "op.FKBEm<w",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What's the difference between <b>git pull</b> and <b>git fetch</b>? (<span style=\" font-style: normal; font-weight: normal;\">In the simplest terms)</span>",
+                                "git pull does a git fetch followed by a git merge."
+                            ],
+                            "flags": 0,
+                            "guid": "j@2Mww$9I{",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What is the difference between <b>git commit</b> and <b>git push</b>?",
+                                "<b>commit:</b> adding changes to the repository.<div><b>push</b>: to transfer the last commit(s) to a remote server</div>"
+                            ],
+                            "flags": 0,
+                            "guid": "n/=o]SCdPT",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What is the <b>head</b> in Git?",
+                                "The head is a pointer to the current branch, which is in turn the last commit you made or checked out into your working directory."
+                            ],
+                            "flags": 0,
+                            "guid": "Dgx!t",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What is the <b>index</b> in Git?",
+                                "It's a snapshot of changes contained in your next commit, this way it's the \"<b>proposed next commit</b>\"."
+                            ],
+                            "flags": 0,
+                            "guid": "KRd1.",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What does <b>head^</b> mean?",
+                                "It means the first parent of the tip of the current branch."
+                            ],
+                            "flags": 0,
+                            "guid": "gTh:E.xGT7",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        },
+                        {
+                            "__type__": "Note",
+                            "data": "",
+                            "fields": [
+                                "What is the difference between <b>head~</b> and <b>head^</b> ?",
+                                "&nbsp;~&lt;n&gt; means the revision that is the &lt;n&gt;th generation ancestor of the named revision, following only the first parents.<div>^&lt;n&gt; means the &lt;n&gt;th parent of that revision.</div>"
+                            ],
+                            "flags": 0,
+                            "guid": "oSbQ@6YX3O",
+                            "note_model_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+                            "tags": []
+                        }
+                    ]
+                }
+            ],
+            "crowdanki_uuid": "a69dcedc-6d5b-11e6-adf3-8c705a50cbf0",
+            "deck_config_uuid": "a69dd698-6d5b-11e6-adf3-8c705a50cbf0",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [],
+            "name": "git",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
             "children": [],
             "crowdanki_uuid": "204638cc-d1a9-11ea-b1dd-8c8590a5600e",
             "deck_config_uuid": "5a91bbd4-d1ac-11ea-b1dd-8c8590a5600e",
@@ -114,7 +731,7 @@
                     "data": "",
                     "fields": [
                         "<h2>\n<a id=\"user-content-how-do-you-add-a-horizontal-rule-using-markdown\" class=\"anchor\" href=\"#how-do-you-add-a-horizontal-rule-using-markdown\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you add a horizontal rule using markdown?</h2>",
-                        " <p><em>use three or more hyphens, asterisks, or underscores. <code>---, ***, ___</code></em></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\"><span class=\"pl-c\">---</span>\n<span class=\"pl-s\">here is a section</span>\n<span class=\"pl-s\">***</span>\n<span class=\"pl-s\">here is another section</span>\n<span class=\"pl-s\">___</span>\n<span class=\"pl-s\">yet another section</span></pre>\n</div>"
+                        "\n<p><em>use three or more hyphens, asterisks, or underscores. <code>---, ***, ___</code></em></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E000;\"><span class=\"pl-c\">---</span>\n<span class=\"pl-s\">here is a section</span>\n<span class=\"pl-s\">***</span>\n<span class=\"pl-s\">here is another section</span>\n<span class=\"pl-s\">___</span>\n<span class=\"pl-s\">yet another section</span></pre>\n</div>"
                     ],
                     "flags": 0,
                     "guid": "EM(F$!2<L7",
@@ -389,7 +1006,7 @@
                     "__type__": "Note",
                     "data": "",
                     "fields": [
-                        "<h2>\n<a id=\"user-content-how-do-you-escape-a-triple-grave-enclosed-code-block-surrounded-by-another-markdown-code-block\" class=\"anchor\" href=\"#how-do-you-escape-a-triple-grave-enclosed-code-block-surrounded-by-another-markdown-code-block\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you escape a triple-grave enclosed code-block surrounded by another markdown code-block?</h2>",
+                        "<h2>\n<a aria-hidden=\"true\" class=\"anchor\" href=\"#how-do-you-escape-a-triple-grave-enclosed-code-block-surrounded-by-another-markdown-code-block\" id=\"user-content-how-do-you-escape-a-triple-grave-enclosed-code-block-surrounded-by-another-markdown-code-block\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you escape a triple-grave enclosed code-block surrounded by another markdown code-block?</h2>",
                         "<p><em>use an outer four-grave pair <code>````</code> and nest triple-graves accourdingly, if you need to escape a four-grave pair, use a five-grave pair. Use this pattern to escape markdown code-blocks ad infinitum</em></p>\n<pre style=\"background-color: #E0E0E0;\"><code>``````\n`````\n````\n```\n```\n````\n`````\n``````\n</code></pre>"
                     ],
                     "flags": 0,
@@ -439,14 +1056,14 @@
         {
             "__type__": "Deck",
             "children": [],
-            "crowdanki_uuid": "206a1878-d1a9-11ea-b1dd-8c8590a5600e",
-            "deck_config_uuid": "5a9258a0-d1ac-11ea-b1dd-8c8590a5600e",
+            "crowdanki_uuid": "2092a0fe-d1a9-11ea-b1dd-8c8590a5600e",
+            "deck_config_uuid": "5a9474fa-d1ac-11ea-b1dd-8c8590a5600e",
             "desc": "",
             "dyn": 0,
             "extendNew": 10,
             "extendRev": 50,
             "media_files": [],
-            "name": "HTML",
+            "name": "CSS",
             "notes": []
         },
         {
@@ -813,7 +1430,7 @@
                     "__type__": "Note",
                     "data": "",
                     "fields": [
-                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\nJavaScript: What will the following conditional statement evaluate to?<div><br /></div><div class=\"code\">false == '';</div>",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\nJavaScript: What will the following conditional statement evaluate to?<div><br></div><div class=\"code\">false == '';</div>",
                         "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\n<div class=\"code\">true</div>"
                     ],
                     "flags": 0,
@@ -1882,14 +2499,14 @@
         {
             "__type__": "Deck",
             "children": [],
-            "crowdanki_uuid": "2092a0fe-d1a9-11ea-b1dd-8c8590a5600e",
-            "deck_config_uuid": "5a9474fa-d1ac-11ea-b1dd-8c8590a5600e",
+            "crowdanki_uuid": "206a1878-d1a9-11ea-b1dd-8c8590a5600e",
+            "deck_config_uuid": "5a9258a0-d1ac-11ea-b1dd-8c8590a5600e",
             "desc": "",
             "dyn": 0,
             "extendNew": 10,
             "extendRev": 50,
             "media_files": [],
-            "name": "CSS",
+            "name": "HTML",
             "notes": []
         }
     ],
@@ -1943,6 +2560,96 @@
                 "perDay": 200
             },
             "timer": 1
+        },
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "a69dd698-6d5b-11e6-adf3-8c705a50cbf0",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": true,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": true,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 100
+            },
+            "timer": 0
+        },
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "a69e3016-6d5b-11e6-adf3-8c705a50cbf0",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Git",
+            "new": {
+                "bury": true,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": true,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 100
+            },
+            "timer": 0
         },
         {
             "__type__": "DeckConfig",
@@ -2046,7 +2753,7 @@
             "autoAlert": 0,
             "autoAnswer": 0,
             "autoplay": false,
-            "crowdanki_uuid": "5a9258a0-d1ac-11ea-b1dd-8c8590a5600e",
+            "crowdanki_uuid": "5a9474fa-d1ac-11ea-b1dd-8c8590a5600e",
             "dyn": false,
             "lapse": {
                 "delays": [
@@ -2142,7 +2849,7 @@
             "autoAlert": 0,
             "autoAnswer": 0,
             "autoplay": false,
-            "crowdanki_uuid": "5a9474fa-d1ac-11ea-b1dd-8c8590a5600e",
+            "crowdanki_uuid": "5a9258a0-d1ac-11ea-b1dd-8c8590a5600e",
             "dyn": false,
             "lapse": {
                 "delays": [
@@ -2194,8 +2901,65 @@
     "note_models": [
         {
             "__type__": "NoteModel",
+            "crowdanki_uuid": "a69ea2c6-6d5b-11e6-adf3-8c705a50cbf0",
+            "css": ".card {\n font-familiy: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic-d1532",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "bash"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "Arial",
+                    "bqfmt": "",
+                    "bsize": 12,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
             "crowdanki_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
-            "css": ".card {\n font-family: Fira Code;\n font-size: 12px;\n text-align: center;\n color: black;\n}\n\n\n* {\nbackground-color: black !important;\n font-size: 12px;\nfont-family: Fira Code !important;\n}\n\n\n\n/*Start of style added by resize image add-on. Don't edit directly or the edition will be lost. Edit via the add-on configuration */\n.mobile .card img {height:unset  !important; width:unset  !important;}\n/*End of style added by resize image add-on*/",
+            "css": ".card {\n font-family: Fira Code;\n font-size: 12px;\n text-align: center;\n}\n\n* {\nfont-family: Fira Code !important;\n\n\n}",
             "flds": [
                 {
                     "font": "Fira Code",
@@ -2250,7 +3014,7 @@
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
-            "css": ".card {\n font-family: Fira Code;\n font-size: 12px;\n text-align: center;\n}\n\n* {\nbackground-color: black !important;\nfont-family: Fira Code !important;\n}\n\n\n\n/*Start of style added by resize image add-on. Don't edit directly or the edition will be lost. Edit via the add-on configuration */\n.mobile .card img {height:unset  !important; width:unset  !important;}\n/*End of style added by resize image add-on*/",
+            "css": ".card {\n font-family: Fira Code;\n font-size: 12px;\n text-align: center;\n}\n\n* {\nfont-family: Fira Code !important;\n}",
             "flds": [
                 {
                     "font": "Fira Code",
@@ -2305,7 +3069,7 @@
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
-            "css": ".card {\n font-family: Fira Code;\n font-size: 12px;\n text-align: center;\n}\n\n* {\nbackground-color: black !important;\nfont-family: Fira Code !important;\n}\n\n\n\n/*Start of style added by resize image add-on. Don't edit directly or the edition will be lost. Edit via the add-on configuration */\n.mobile .card img {height:unset  !important; width:unset  !important;}\n/*End of style added by resize image add-on*/",
+            "css": ".card {\n font-family: Fira Code;\n font-size: 12px;\n text-align: center;\n}\n\n* {\nfont-family: Fira Code !important;\n}",
             "flds": [
                 {
                     "font": "Fira Code",
@@ -2344,9 +3108,9 @@
             "tmpls": [
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
-                    "bafmt": "",
+                    "bafmt": "pre {\nbackground-color: black !important;\n}",
                     "bfont": "Fira Code",
-                    "bqfmt": "",
+                    "bqfmt": "pre {\nbackground-color: black !important;\n}",
                     "bsize": 12,
                     "did": null,
                     "name": "Card 1",
