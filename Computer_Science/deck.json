@@ -1,0 +1,2362 @@
+{
+    "__type__": "Deck",
+    "children": [
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "204638cc-d1a9-11ea-b1dd-8c8590a5600e",
+            "deck_config_uuid": "5a91bbd4-d1ac-11ea-b1dd-8c8590a5600e",
+            "desc": "Please see the <a href='https://ankiweb.net/shared/info/684935796'>shared deck page</a> for more info.",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [],
+            "name": "Github Flavored Markdown (GFM)",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-make-headers-in-markdown\" class=\"anchor\" href=\"#how-do-you-make-headers-in-markdown\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you make headers in markdown?</h2>",
+                        "<p><em>By preceding the text with an octothorpe symbol (#) along with a space</em></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\"><span class=\"pl-mh\"><span class=\"pl-mh\">#</span><span class=\"pl-mh\"> </span>This is an h1</span>\n<span class=\"pl-mh\"><span class=\"pl-mh\">##</span><span class=\"pl-mh\"> </span>This is an h2</span>\n<span class=\"pl-mh\"><span class=\"pl-mh\">######</span><span class=\"pl-mh\"> </span>This is an h6</span></pre>\n</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "xQC[@m)P5",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-what-is-an-alternative-way-to-make-headers-in-markdown\" class=\"anchor\" href=\"#what-is-an-alternative-way-to-make-headers-in-markdown\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>What is an alternative way to make headers in markdown?</h2>\n",
+                        "<p><em>By leveraging an underlining style using hyphens <code>(----)</code> or equals signs <code>(======)</code> in the line following the header content.</em></p>\n<p><strong><em>This is limited to <code>&lt;h1&gt;</code> and <code>&lt;h2&gt;</code></em></strong></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: rgb(224, 224, 224);\">Alternative H1 Markdown Syntax\n==============================\n\nAlternative H2 Markdown Syntax\n<span class=\"pl-c\">------------------------------</span></pre>\n</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "i+MJz`.97F",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-escape-a-character-in-markdown\" class=\"anchor\" href=\"#how-do-you-escape-a-character-in-markdown\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you escape a character in markdown?</h2>",
+                        "<p><em>by using the backslash character preceding the character that is to be escaped (not parsed by the markdown engine.)</em></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\">this is an <span class=\"pl-cce\">\\&lt;</span>h1&gt;</pre>\n</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "fUQP5jIZz,",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-place-emphasis-using-italics-in-markdown\" class=\"anchor\" href=\"#how-do-you-place-emphasis-using-italics-in-markdown\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you place emphasis using italics in markdown?</h2>",
+                        "<p><em>by wrapping content using a set of single asterisks or underscores</em></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\"><span class=\"pl-mi\">*This text will be emphasized with italics*</span>\n<span class=\"pl-mi\">_This text will also be emphasized with italics_</span></pre>\n</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "C.=VhLNvC]",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-place-strong-emphasis-using-bold-in-markdown\" class=\"anchor\" href=\"#how-do-you-place-strong-emphasis-using-bold-in-markdown\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you place strong emphasis using bold in markdown?</h2>",
+                        "<p><em>by wrapping content using a set of double asterisks or underscores</em></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\"><span class=\"pl-mb\">**This text will be emphasized with bold**</span>\n<span class=\"pl-mb\">__This text will also be emphasized with bold__</span></pre>\n</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "qOvUSHt+yv",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-combine-emphasis-italics-and-strong-emphasis-bold-using-markdown\" class=\"anchor\" href=\"#how-do-you-combine-emphasis-italics-and-strong-emphasis-bold-using-markdown\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you combine emphasis (italics) and strong emphasis (bold) using markdown?</h2>",
+                        "<p><em>by following standard html nesting practices</em></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\">Combined emphasis using <span class=\"pl-mb\">**bold and _italics_**</span></pre>\n</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "cd2F-2gX90",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-strikethrough-text-in-markdown\" class=\"anchor\" href=\"#how-do-you-strikethrough-text-in-markdown\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you strikethrough text in markdown?</h2>",
+                        "<p><em>by wrapping content using a set of double tildes (~~)</em></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\">stike text by wrapping content using a set of double ~~asterisks~~ tildes. (~~)</pre>\n</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "dNjFMS`zuZ",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-add-a-blockquote-using-markdown\" class=\"anchor\" href=\"#how-do-you-add-a-blockquote-using-markdown\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you add a blockquote using markdown?</h2>",
+                        "<p><em>by preceding each line of the quoted text with the right-angle bracket <code>&gt;</code> with a single padding space</em></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\"><span class=\"pl-c\"><span class=\"pl-c1\">&gt;</span> Here is important and/or quotable, attention should be drawn here.</span></pre>\n</div>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\"><span class=\"pl-c\"><span class=\"pl-c1\">&gt;</span> Block</span>\n<span class=\"pl-c\"><span class=\"pl-c\"><span class=\"pl-c1\">&gt;</span> quotes</span></span>\n<span class=\"pl-c\"><span class=\"pl-c\"><span class=\"pl-c\"><span class=\"pl-c1\">&gt;</span> concatenate to a single line</span></span></span>\n<span class=\"pl-c\"><span class=\"pl-c\"><span class=\"pl-c\"><span class=\"pl-c\"><span class=\"pl-c1\">&gt;</span> even</span></span></span></span>\n<span class=\"pl-c\"><span class=\"pl-c\"><span class=\"pl-c\"><span class=\"pl-c\"><span class=\"pl-c\"><span class=\"pl-c1\">&gt;</span> with</span></span></span></span></span>\n<span class=\"pl-c\"><span class=\"pl-c\"><span class=\"pl-c\"><span class=\"pl-c\"><span class=\"pl-c\"><span class=\"pl-c\"><span class=\"pl-c1\">&gt;</span> new</span></span></span></span></span></span>\n<span class=\"pl-c\"><span class=\"pl-c\"><span class=\"pl-c\"><span class=\"pl-c\"><span class=\"pl-c\"><span class=\"pl-c\"><span class=\"pl-c\"><span class=\"pl-c1\">&gt;</span> lines.</span></span></span></span></span></span></span></pre>\n</div>\n"
+                    ],
+                    "flags": 0,
+                    "guid": "QguXXYP@Ib",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-add-a-horizontal-rule-using-markdown\" class=\"anchor\" href=\"#how-do-you-add-a-horizontal-rule-using-markdown\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you add a horizontal rule using markdown?</h2>",
+                        " <p><em>use three or more hyphens, asterisks, or underscores. <code>---, ***, ___</code></em></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\"><span class=\"pl-c\">---</span>\n<span class=\"pl-s\">here is a section</span>\n<span class=\"pl-s\">***</span>\n<span class=\"pl-s\">here is another section</span>\n<span class=\"pl-s\">___</span>\n<span class=\"pl-s\">yet another section</span></pre>\n</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "EM(F$!2<L7",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-create-an-unordered-list-in-markdown\" class=\"anchor\" href=\"#how-do-you-create-an-unordered-list-in-markdown\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you create an unordered list in markdown?</h2>",
+                        "<p><em>By using an asterisk(*), minus(-), or plus (+) along with a space preceding the list item</em></p>\n<p><em><strong>having groups of list symbols (*, -, and +) will create seperate lists</strong></em></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\"><span class=\"pl-v\">*</span> list item dog\n<span class=\"pl-v\">-</span> list item phone number\n<span class=\"pl-v\">*</span> list item fourteen\n<span class=\"pl-v\">+</span> list item pogo-stick\n<span class=\"pl-v\">+</span> list item TheFallOfRome</pre>\n</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "usthY2~SwV",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-create-a-unordered-sub-list-in-markdown\" class=\"anchor\" href=\"#how-do-you-create-a-unordered-sub-list-in-markdown\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you create a unordered sub-list in markdown?</h2>",
+                        "<p><em>by applying indentation within an unordered list</em></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\"><span class=\"pl-v\">*</span> list item dog\n    <span class=\"pl-v\">*</span> list item dogName\n    <span class=\"pl-v\">*</span> list item dogFood\n    <span class=\"pl-v\">*</span> list item dogWalk\n<span class=\"pl-v\">*</span> list item phone number\n<span class=\"pl-v\">*</span> list item pogo-stick</pre>\n</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "eu*])irVUn",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-create-an-ordered-list-in-markdown\" class=\"anchor\" href=\"#how-do-you-create-an-ordered-list-in-markdown\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you create an ordered list in markdown?</h2>",
+                        "<p><em>by using any number followed by a period <code>(.)</code> and a space</em></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\"><span class=\"pl-v\">1.</span> This\n<span class=\"pl-v\">9.</span> is\n<span class=\"pl-v\">3.</span> a\n<span class=\"pl-v\">7.</span> ordered\n<span class=\"pl-v\">2.</span> list\n<span class=\"pl-v\">8.</span> even\n<span class=\"pl-v\">1.</span> though\n<span class=\"pl-v\">1.</span> the numbers used\n<span class=\"pl-v\">9.</span> in markdown\n<span class=\"pl-v\">4.</span> are nonsensical</pre>\n</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "PTj>&pty$K",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-create-an-ordered-sub-list-in-markdown\" class=\"anchor\" href=\"#how-do-you-create-an-ordered-sub-list-in-markdown\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you create an ordered sub-list in markdown?</h2>",
+                        "<p><em>by applying indentation within an ordered list along with a sub-list character</em></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\"><span class=\"pl-v\">1.</span> This\n<span class=\"pl-v\">9.</span> is\n<span class=\"pl-v\">3.</span> a\n    <span class=\"pl-v\">1.</span> item 1\n    <span class=\"pl-v\">44.</span> item 2\n    <span class=\"pl-v\">10.</span> item 3\n<span class=\"pl-v\">7.</span> ordered\n<span class=\"pl-v\">2.</span> list\n<span class=\"pl-v\">8.</span> even\n<span class=\"pl-v\">1.</span> though\n<span class=\"pl-v\">1.</span> the numbers used\n<span class=\"pl-v\">9.</span> in markdown\n<span class=\"pl-v\">4.</span> are nonsensical</pre>\n</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "LV<&uGzxFh",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-add-a-properly-indented-paragraph-within-a-list-in-markdown\" class=\"anchor\" href=\"#how-do-you-add-a-properly-indented-paragraph-within-a-list-in-markdown\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you add a properly indented paragraph within a list in markdown?</h2>",
+                        "<p><em>by following the indentation defined within the existing list along with line-breaks before and after the paragraph</em></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\"><span class=\"pl-v\">1.</span> This\n\n    the quick brown fox jumped over the lazy dog.\n\n<span class=\"pl-v\">9.</span> is\n<span class=\"pl-v\">3.</span> a\n    <span class=\"pl-v\">1.</span> item 1\n    \n        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.\n    \n    <span class=\"pl-v\">44.</span> item 2\n    <span class=\"pl-v\">10.</span> item 3\n<span class=\"pl-v\">7.</span> ordered\n<span class=\"pl-v\">2.</span> list\n<span class=\"pl-v\">8.</span> even\n<span class=\"pl-v\">1.</span> though\n<span class=\"pl-v\">1.</span> the numbers used\n<span class=\"pl-v\">9.</span> in markdown\n<span class=\"pl-v\">4.</span> are nonsensical</pre>\n</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "nFNMtqG]Xs",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-create-a-task-list-in-github-flavored-markdown\" class=\"anchor\" href=\"#how-do-you-create-a-task-list-in-github-flavored-markdown\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you create a task list in github flavored markdown?</h2>",
+                        "<p><em>by using a hypen <code>-</code> and square brackets with empty space inbetween <code>[ ]</code> followed by a list-item's text. Check-Off tasks by adding an 'x' within the brackets <code>- [x]</code></em></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\"><span class=\"pl-v\">-</span> [ ] Be sure to include the empty space\n<span class=\"pl-v\">-</span> [x] but no empty space for the 'x'\n<span class=\"pl-v\">-</span> [x] Thing to check has been checked\n<span class=\"pl-v\">-</span> [ ] Switch to flip and then flop</pre>\n</div>\n<p><strong><em>If using GFM within Github issues, a task list in the first comment of an issue or pull request will provide a cool progress indicator in the issue list</em></strong></p>"
+                    ],
+                    "flags": 0,
+                    "guid": "YXMKZ,d?I",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-add-a-table-using-github-flavored-markdown-gfm\" class=\"anchor\" href=\"#how-do-you-add-a-table-using-github-flavored-markdown-gfm\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you add a table using github flavored markdown (GFM)?</h2>",
+                        "<p><em>tables require headers. headers are created using a combination of pipe <code>|</code> and <strong>at least</strong> three hypen symbols.<code>---</code>. Rows follow the same format and must be placed under the headers</em></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\">  x   | column a  | column b | column c\n---   |   --------|  ------- | ---\nrow 1 |  cell a1  |   cell b1| cell c1\nrow 2 |cell a2    | cell b2  |cell c2\nrow 3|cell a3|cell b3|cell c3</pre>\n</div>\n<p><strong><em>Note that the markdown you write does NOT need to be aligned</em></strong></p>"
+                    ],
+                    "flags": 0,
+                    "guid": "t!,~!U(t5U",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-align-the-columns-in-a-markdown-gfm-table\" class=\"anchor\" href=\"#how-do-you-align-the-columns-in-a-markdown-gfm-table\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you align the columns in a markdown (GFM) table?</h2>",
+                        "<p><em>add a colon <code>:</code> to either side or both sides of the tables header dashes</em></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\">:---    left align\n:---:   center align\n---:    right align</pre>\n</div>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\">  x   | left alignment| Center alignment  | Right alignment\n---   |   :--------   |  :-------:       | ---:\nrow 1 |  <span class=\"pl-mi\">*cell a1*</span>    |   <span class=\"pl-mb\">__*cell b1*__</span>  | <span class=\"pl-c1\">`cell c1`</span>\nrow 2 |<span class=\"pl-mb\">__cell a2__</span>    | <span class=\"pl-c1\">`cell b2`</span>        |cell c2\nrow 3| <span class=\"pl-mi\">*cell a3*</span> |cell b3| <span class=\"pl-mi\">_cell c3_</span></pre>\n</div>\n<p><strong><em>with the exception of headers <code>#</code>, Markdown styling may be applied to cell contents</em></strong></p>"
+                    ],
+                    "flags": 0,
+                    "guid": "vWJ_0hBFFh",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-create-an-inline-style-link-with-markdown\" class=\"anchor\" href=\"#how-do-you-create-an-inline-style-link-with-markdown\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you create an inline-style link with markdown?</h2>",
+                        "<p><em>by using square brackets <code>[]</code> followed by parenthesis <code>()</code> using the following syntax:</em></p>\n<p><strong><em><code>[link name](url)</code></em></strong></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\">[<span class=\"pl-e\">A link to search for answers</span>](https://www.google.com)</pre>\n</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "x-C1NyT@XA",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-create-an-inline-style-link-with-a-hover-over-title-in-markdown\" class=\"anchor\" href=\"#how-do-you-create-an-inline-style-link-with-a-hover-over-title-in-markdown\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you create an inline-style link with a hover-over title in markdown?</h2>",
+                        "<p><em>by adding double-quotes <code>\"\"</code> to the url portion of the standard markdown link syntax.</em></p>\n<p><strong><em><code>[link name](url \"hover-over title\")</code></em></strong></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\">[<span class=\"pl-e\">A link to search for answers</span>](https://www.google.com \"Google Search\")</pre>\n</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "eraYBG{f,h",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-create-an-anchor-link-to-refer-to-a-section-of-the-current-markdown-document\" class=\"anchor\" href=\"#how-do-you-create-an-anchor-link-to-refer-to-a-section-of-the-current-markdown-document\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you create an Anchor link to refer to a section of the current markdown document?</h2>",
+                        "<p><em>using basic markdown link syntax, Add a leading octothrope <code>#</code> to heading text defined within the markdown file, then add hyphens <code>-</code> between the heading words</em></p>\n<p><code>[link text](#Hypen-Separated-Heading-with-leading-#)</code></p>\n<pre style=\"background-color: #E0E0E0;\"><code>[How do you create an Anchor link to refer to a section of the current markdown document?](#how-do-you-create-an-anchor-link-to-refer-to-a-section-of-the-current-markdown-document)\n</code></pre>"
+                    ],
+                    "flags": 0,
+                    "guid": "ev$7Z#KwZ-",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-create-a-reference-style-link-using-markdown\" class=\"anchor\" href=\"#how-do-you-create-a-reference-style-link-using-markdown\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you create a reference-style link using markdown?</h2>",
+                        "<p><em>by using square brackets <code>[]</code> instead of parenthesis <code>()</code> as the second declaration in the standard markdown link syntax along with a bibliographic reference using square brackets <code>[]</code> and a colon <code>:</code></em></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\">[<span class=\"pl-e\">link-text</span>][Arbitrary case-insensitive reference text]\n\n[<span class=\"pl-e\">Arbitrary case-insensitive reference text</span>]: referenceURL</pre>\n</div>\n<p><strong>Example:</strong></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\">[<span class=\"pl-e\">The Dunning-Kruger effect</span>][dunning, kruger]\n\n[<span class=\"pl-e\">Negativity bias</span>][1]\n\n[Survivorship bias]\n\n\n[<span class=\"pl-e\">dunning, kruger</span>]: https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect\n[<span class=\"pl-e\">1</span>]: https://en.wikipedia.org/wiki/Negativity_bias\n[<span class=\"pl-e\">Survivorship bias</span>]: https://en.wikipedia.org/wiki/Survivorship_bias</pre>\n</div>\n<p><strong><em>Feature: Bibilographic references are not displayed in-browser on github</em></strong></p>\n<p><em>there is also a shorthand version using the link text found in the first set of square brackets</em></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\">[link-text]\n\n[<span class=\"pl-e\">link-text</span>]: referenceURL</pre>\n</div>\n<p><strong><em>Feature: Bibilographic references are not displayed in-browser on github</em></strong></p>"
+                    ],
+                    "flags": 0,
+                    "guid": "m|Mp$WglDw",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-create-a-relative-reference-link-to-a-repository-file-in-markdown\" class=\"anchor\" href=\"#how-do-you-create-a-relative-reference-link-to-a-repository-file-in-markdown\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you create a relative reference link to a repository file in markdown?</h2>",
+                        "<p><em>by using dot-slash notation <code>./dir1/dir2/file.txt</code> in the paranthetical link definition using standard markdown link syntax</em></p>\n<p><strong><em><code>[Repository File](../dir1/dir2/file.txt)</code></em></strong></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\">[<span class=\"pl-e\">Inspectional Book Review Template</span>](../ContentTemplates/InspectionalBookReviewTemplate.md)</pre>\n</div>\n<p><strong><em>you can likewise use the biblographic reference style to link to repository files</em></strong></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\">[<span class=\"pl-e\">A workflow for gettting the most out of skim reading</span>][Inspectional Book Review Template]\n\n[<span class=\"pl-e\">Inspectional Book Review Template</span>]: ../ContentTemplates/InspectionalBookReviewTemplate.md</pre>\n</div>\n<p><strong><em>Feature: Bibilographic references are not displayed in-browser on github</em></strong></p>"
+                    ],
+                    "flags": 0,
+                    "guid": "gdXO]V,,Q}",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-link-to-a-github-issue-or-pull-request-using-its-raw-url-in-markdown\" class=\"anchor\" href=\"#how-do-you-link-to-a-github-issue-or-pull-request-using-its-raw-url-in-markdown\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you link to a Github Issue or Pull request using its RAW URL in markdown?</h2>",
+                        "<p><em>by using the issue's RAW URL in the paranthetical link definition using standard markdown link syntax</em></p>\n<p><strong><em><code>[#1](https://github.com/user/repo/issues/1)</code></em></strong></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\">[<span class=\"pl-e\">#1</span>](https://github.com/dmidlo/weblog/issues/1)</pre>\n</div>\n<p><strong><em>you can likewise use the biblographic reference style to link to repository files</em></strong></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\">[<span class=\"pl-e\">Issue - How do you link to a Github Issue or Pull request in markdown?</span>][#1]\n\n[<span class=\"pl-e\">#1</span>]: https://github.com/dmidlo/weblog/issues/1</pre>\n</div>\n<p><strong><em>Feature: Bibilographic references are not displayed in-browser on github</em></strong></p>"
+                    ],
+                    "flags": 0,
+                    "guid": "ePr!mjW_3B",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-link-to-a-git-commit-on-github-in-markdown\" class=\"anchor\" href=\"#how-do-you-link-to-a-git-commit-on-github-in-markdown\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you link to a git commit on github in markdown?</h2>",
+                        "<p><em>by using the commits's RAW URL in the paranthetical link definition using standard markdown link syntax</em></p>\n<p><strong><em><code>[commit text](https://github.com/user/repo/commit/hash)</code></em></strong></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\">[<span class=\"pl-e\">this commit</span>](https://github.com/dmidlo/weblog/commit/c54e55103c7e9f865e05a2f2217551ad052e32c4)\n\n[<span class=\"pl-e\">c54e551</span>](https://github.com/dmidlo/weblog/commit/c54e551)</pre>\n</div>\n<p><strong><em>you can likewise use the biblographic reference style to link to repository files</em></strong></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\">[<span class=\"pl-e\">this commit</span>][c54e551]\n\n[<span class=\"pl-e\">c54e551</span>]: https://github.com/dmidlo/weblog/commit/c54e551</pre>\n</div>\n<p><strong><em>Feature: Bibilographic references are not displayed in-browser on github</em></strong></p>"
+                    ],
+                    "flags": 0,
+                    "guid": "NG@!-0MNL>",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-add-an-image-link-in-line-using-markdown\" class=\"anchor\" href=\"#how-do-you-add-an-image-link-in-line-using-markdown\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you add an image link in-line using markdown?</h2>",
+                        "<p><em>by using a exclaimation mark <code>!</code>, square brackets <code>[]</code>, followed by parenthesis<code>()</code> using the following syntax:</em></p>\n<p><strong><em><code>![alt text](image URL)</code></em></strong></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\">![<span class=\"pl-e\">Markdown logo</span>](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/416px-Markdown-mark.svg.png)</pre>\n</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "CJ~{a6W?`e",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-add-an-image-link-using-a-bibliographic-style-reference-in-markdown\" class=\"anchor\" href=\"#how-do-you-add-an-image-link-using-a-bibliographic-style-reference-in-markdown\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you add an image link using a bibliographic-style reference in markdown?</h2>",
+                        "<p><em>by using an exclaimation mark <code>!</code>, and square brackets <code>[]</code> instead of parenthesis <code>()</code> as the second declaration in the standard markdown image link syntax along with a bibliographic reference using square brackets <code>[]</code> and a colon <code>:</code></em></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\">![<span class=\"pl-e\">alt text</span>][Arbitrary case-insensitive reference text]\n\n[<span class=\"pl-e\">Arbitrary case-insensitive reference text</span>]: image URL</pre>\n</div>\n<p><strong>Example:</strong></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\">![<span class=\"pl-e\">github logo</span>][wikimedia github logo]\n\n\n[<span class=\"pl-e\">wikimedia github logo</span>]: https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/GitHub_logo_2013.svg/320px-GitHub_logo_2013.svg.png\n</pre>\n</div>\n<p><strong><em>Feature: Bibilographic references are not displayed in-browser on github</em></strong></p>"
+                    ],
+                    "flags": 0,
+                    "guid": "unu[zc?VzI",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-add-a-linked-image-using-markdown\" class=\"anchor\" href=\"#how-do-you-add-a-linked-image-using-markdown\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you add a linked image using markdown?</h2>",
+                        "<p><em>simply nest markdown image syntax with the text field of markdown's link syntax</em></p>\n<pre style=\"background-color: #E0E0E0;\"><code>Inline Link Syntax:\n[link name](url)\n\nInline Image syntax:\n![alt text](image URL)\n\nLinked Image Syntax:\n[![alt text](image URL)](url)\n</code></pre>\n<p><strong><em>biblographic reference style linking makes this syntax more readable</em></strong></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\">[![whatwg logo]][WhatWG HTML Dev]\n\n\n[<span class=\"pl-e\">WhatWG logo</span>]: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/WHATWG_logo.svg/240px-WHATWG_logo.svg.png\n\n[<span class=\"pl-e\">WhatWG HTML Dev</span>]: https://html.spec.whatwg.org/dev/</pre>\n</div>\n"
+                    ],
+                    "flags": 0,
+                    "guid": "jip&Zct8TR",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-add-a-youtube-video-using-gfm-markdown-for-use-on-github\" class=\"anchor\" href=\"#how-do-you-add-a-youtube-video-using-gfm-markdown-for-use-on-github\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you add a youtube video using GFM markdown for use on Github?</h2>",
+                        "<p><em>you can't, but you can use a linked image to send the viewer to youtube. <code>img.youtube.com</code> serves up video thumbnails</em></p>\n<p><code>http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg</code></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\">[![R2D2's Secret Message image]][R2D2's Secret Message video]\n\n[<span class=\"pl-e\">R2D2's Secret Message image</span>]: http://img.youtube.com/vi/Uj1ykZWtPYI/0.jpg\n[<span class=\"pl-e\">R2D2's Secret Message video</span>]: http://www.youtube.com/watch?v=Uj1ykZWtPYI</pre>\n</div>\n<p><a href=\"http://www.youtube.com/watch?v=Uj1ykZWtPYI\" rel=\"nofollow\"><img src=\"https://camo.githubusercontent.com/ff103770051cbbe6c7f1f6215a2077ad56efaf60/687474703a2f2f696d672e796f75747562652e636f6d2f76692f556a31796b5a57745059492f302e6a7067\" data-canonical-src=\"http://img.youtube.com/vi/Uj1ykZWtPYI/0.jpg\" /></a></p>"
+                    ],
+                    "flags": 0,
+                    "guid": "HYx7Oyv31D",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-add-code-in-line-using-markdown-a-code-span\" class=\"anchor\" href=\"#how-do-you-add-code-in-line-using-markdown-a-code-span\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you add code in-line using markdown (a code span)?</h2>",
+                        "<p><em>by wrapping content using a set of grave accents (backticks) <code>`</code></em></p>\n<p><strong><em><code>`&lt;h1&gt;Encyclopedia Galactica&lt;/h1&gt;`</code></em></strong></p>"
+                    ],
+                    "flags": 0,
+                    "guid": "JY)Hfs1u.[",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-add-a-single-grave-accent-to-a-code-span-in-markdown\" class=\"anchor\" href=\"#how-do-you-add-a-single-grave-accent-to-a-code-span-in-markdown\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you add a single grave accent to a code span in markdown?</h2>",
+                        "<p><em>by using double-graves with a one-space pad on either side. Pad is only needed in this special case of only one grave accent</em></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\"><span class=\"pl-c1\">`` ` ``</span>\n\n<span class=\"pl-c1\">``just one ` grave accent.``</span>\n\n<span class=\"pl-c1\">``a set of `grave` accents.``</span>\n</pre>\n</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "N7o[,wC4t<",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-add-a-pre-formatted-code-block-using-markdown\" class=\"anchor\" href=\"#how-do-you-add-a-pre-formatted-code-block-using-markdown\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you add a pre-formatted code block using markdown?</h2>",
+                        "<p><em>on the preceding line and following lines of the block, use triple grave accents (backticks) <code>```</code></em></p>\n<pre style=\"background-color: #E0E0E0;\"><code>```\n    Blazing wintertime\nA deep, clever lake calls\n    Darkening mountain\n```\n</code></pre>"
+                    ],
+                    "flags": 0,
+                    "guid": "v7^XEWO^Xn",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-escape-a-triple-grave-enclosed-code-block-surrounded-by-another-markdown-code-block\" class=\"anchor\" href=\"#how-do-you-escape-a-triple-grave-enclosed-code-block-surrounded-by-another-markdown-code-block\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you escape a triple-grave enclosed code-block surrounded by another markdown code-block?</h2>",
+                        "<p><em>use an outer four-grave pair <code>````</code> and nest triple-graves accourdingly, if you need to escape a four-grave pair, use a five-grave pair. Use this pattern to escape markdown code-blocks ad infinitum</em></p>\n<pre style=\"background-color: #E0E0E0;\"><code>``````\n`````\n````\n```\n```\n````\n`````\n``````\n</code></pre>"
+                    ],
+                    "flags": 0,
+                    "guid": "HU?A,xCbm8",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-add-syntax-highlighting-to-a-pre-formatted-code-block-in-markdown\" class=\"anchor\" href=\"#how-do-you-add-syntax-highlighting-to-a-pre-formatted-code-block-in-markdown\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you add syntax highlighting to a pre-formatted code block in markdown?</h2>",
+                        "<p><em>by adding a supported language just after the leading triple-grave of the code-block declaration.</em></p>\n<p><strong><em><code>```html</code></em></strong></p>\n<pre style=\"background-color: #E0E0E0;\"><code>```html\n&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n&lt;head&gt;\n    &lt;title&gt;&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n    &lt;h1&gt;The Mos Maiorum of the Roman Senate&lt;/h1&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n```\n</code></pre>\n<p><strong><em>GFM uses highlight.js to provide syntax highlighting. <a href=\"https://highlightjs.org/static/demo/\" rel=\"nofollow\">See the full list of supported languages</a></em></strong></p>"
+                    ],
+                    "flags": 0,
+                    "guid": "OzFj}1U)Us",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<h2>\n<a id=\"user-content-how-do-you-add-html-directly-to-an-markdown-file\" class=\"anchor\" href=\"#how-do-you-add-html-directly-to-an-markdown-file\" aria-hidden=\"true\"><span aria-hidden=\"true\" class=\"octicon octicon-link\"></span></a>How do you add html directly to an markdown file?</h2>",
+                        "<p><em>Since, relative to an html document, the use of markdown implies that we the html elements usually availble can be children of the html <code>&lt;body&gt;</code> tag. GFM when rendered on github may only have a subset of html elements available.</em></p>\n<div class=\"highlight highlight-source-gfm\">\n<pre style=\"background-color: #E0E0E0;\">&lt;dl&gt;\n    &lt;dt&gt;Supercalifragilisticexpialidocious&lt;/dt&gt;\n    &lt;dd&gt;Extraordinarily Good; Wonderful&lt;/dd&gt;\n&lt;/dl&gt;</pre>\n</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "pj`lHs_{Af",
+                    "note_model_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "20591000-d1a9-11ea-b1dd-8c8590a5600e",
+            "deck_config_uuid": "5a9247ac-d1ac-11ea-b1dd-8c8590a5600e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [],
+            "name": "Python",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "206a1878-d1a9-11ea-b1dd-8c8590a5600e",
+            "deck_config_uuid": "5a9258a0-d1ac-11ea-b1dd-8c8590a5600e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [],
+            "name": "HTML",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "207b13d0-d1a9-11ea-b1dd-8c8590a5600e",
+            "deck_config_uuid": "5a9269a8-d1ac-11ea-b1dd-8c8590a5600e",
+            "desc": "Please see the <a href='https://ankiweb.net/shared/info/216021904'>shared deck page</a> for more info.",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [],
+            "name": "JavaScript",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: How are single line comments formatted?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nUsing <div class=\"code\">//</div>.<div><br /></div><div>Example:</div><div class=\"code\">//Comment here</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "h9#8cV`hs7",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: How are multi-line comments fomatted?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nBy commenting between <div class=\"code\">/*</div> and <div class=\"code\">*/</div>.<div><br /></div><div>Example:</div><div class=\"code\"><div>/*</div><div>&nbsp; &nbsp; &nbsp;Comment</div><div>&nbsp; &nbsp; &nbsp;here</div><div>*/</div></div>"
+                    ],
+                    "flags": 0,
+                    "guid": "jV$ngsQz+a",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What are the seven fundamental data types?",
+                        "Number<div>String</div><div>Boolean</div><div>Null</div><div>Undefined</div><div>Symbol</div><div>Object</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "Q5/etA3G?c",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What property of strings returns the amount of characters in the string?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">length</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "fTH2,j;b3#",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What method of strings transforms the text to uppercase?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">toUpperCase()</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "Dhu*a]3;WB",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What method of strings returns a boolean value for whether or not the string begins with a given letter?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">startsWith('letter')</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "mlHMxd>_H:",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What method of strings deletes all whitespace at the beginning and end of the string?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">trim()</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "OJJNO_0pZ*",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nJavaScript: What <div class=\"code\">Math</div> method returns a random decimal value between 0 and 1?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">random</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "QRF[:aR:/{",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What is the name of the built-in object that contains numerous functions useful for performing mathematical operations?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">Math</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "JF)))^{dN#",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nJavaScript: What <div class=\"code\">Number</div> method returns a boolean value based on whether or not a given number is an integer?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">isInteger(number)</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "iK[gcS=*;h",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What are the three absolute rules for naming variables?",
+                        "Variable names cannot start with numbers.<div>Variable names are case sensitive.</div><div>The only non-alphanumeric characters that can be used are $ and _.</div><div>Variable names cannot be the same as keywords.</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "x8=Qk99R`t",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: When no value is given when declaring a variable, what is the default value that is used?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">undefined</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "Lo(}v9AhC-",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What keyword declares a variable that can have its value changed?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">let</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "qRpP>87_Ad",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What keyword declares a variable that cannot have its value changed?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">const</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "jYI/(jAmBU",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What are the increment and decrement assignment operators?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\n<div class=\"code\">++</div> and <div class=\"code\">--</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "fN9TMA{BNg",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What are the mathematical assignment operators?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">+=</div><br /><div class=\"code\">-+</div><br /><div class=\"code\">*=</div><br /><div class=\"code\">/=</div><br /><div class=\"code\">%=</div><br /><div class=\"code\">**=</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "HfAI5$0>Ai",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What is the exponentiation operator?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">**</div><div><br /></div><div>Example:</div><div class=\"code\">let answer = 3 ** 2;</div><br /><div>The above code assigns the variable <div class=\"code\">answer</div> a value of 9.</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "ux~uF`n]t?",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: How are template literals formatted?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nUsing backticks <div class=\"code\">``</div> instead of quotation marks <div class=\"code\">''</div>."
+                    ],
+                    "flags": 0,
+                    "guid": "I.wY,9n^e,",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What is the use of template literals?",
+                        "To insert variables into strings without escaping quotation marks."
+                    ],
+                    "flags": 0,
+                    "guid": "h)H[:+)z_7",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: How are variables inserted into template literals?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\nInside the curly braces of <div class=\"code\">${}</div>.<div><br /></div><div>Example:</div><div class=\"code\">console.log(`The number is equal to ${valueOfNumber}`);</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "kv292,4aUE",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What operator returns the type of the variable to its right as a string?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">typeof</div><div><br /></div><div>Example:</div><div class=\"code\">let valueType = typeof 42;</div><div><br /></div><div>The <div class=\"code\">valueType</div> variable would be assigned the value <div class=\"code\">'number'</div>.</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "E5b3XyHz-=",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What is the pre-ES6 keyword used to declare variables?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">var</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "gS,0;%im==",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What is string interpolation?",
+                        "Using template literals to embed variables into strings."
+                    ],
+                    "flags": 0,
+                    "guid": "g4sN9x$`<J",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What is string concatenation?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nJoining strings together into a single string.<div><br /></div><div>Example:</div><div class=\"code\">let compoundString = 'This is a' + ' ' + 'compound' + ' ' + 'string' + '.';</div><div><br /></div><div>The above code concatenates the individual strings into a compound string with a value of&nbsp;<div class=\"code\">'This is a compound string.'</div>.</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "nirm89rW5}",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: How is an if statement declared?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\n<div class=\"code\">if (condition) {<div>&nbsp; &nbsp; &nbsp;//code to run if condition is true</div><div>}</div></div>"
+                    ],
+                    "flags": 0,
+                    "guid": "OXx;&RSgae",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "\nJavaScript: How is an if...else statement declared?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\n<div class=\"code\">if (condition) {<div>&nbsp; &nbsp; &nbsp;code to run if condition is true</div><div>} else {</div><div>&nbsp; &nbsp; &nbsp;code to run if condition is false</div><div>}</div></div>"
+                    ],
+                    "flags": 0,
+                    "guid": "iz+P}Pe#3h",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nJavaScript: What is the difference between the <div class=\"code\">==</div> and <div class=\"code\">===</div> operators?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">==</div> is the loose equality operator, which will compare two values and return true if the values are equal, even if they are of different types.<div><br /></div><div><div class=\"code\">===</div> is the strict equality operator, which will compare two values and return true only if the values are equal in value and in type.</div><div><br /></div><div>Example:</div><div class=\"code\"><div>let x = 1;</div><div>if (x == \"1\") {} //This would return true</div><div><br /></div><div>if (x === \"1\") {} //This would return false</div></div>"
+                    ],
+                    "flags": 0,
+                    "guid": "D;D_iy<BXn",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: When a non-boolean value is used in a boolean or conditional context, how is the statement evaluated?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nThe value returns <div class=\"code\">true</div> or <div class=\"code\">false</div> based on its predetermined truthiness or falsiness.<div><br></div><div>Example:</div><div class=\"code\"><div>let aWord = 'hello';</div><div>if (aWord) {}</div></div><div><br></div><div>This would return true, as the string is considered truthy due to it not being empty.</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "kFP}&Uw&22",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What values are always considered falsy?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nBoolean: <div class=\"code\">false</div><div>Number: <div class=\"code\">0</div></div><div>String: <div class=\"code\">''</div> or <div class=\"code\">\"\"</div> (empty string)</div><div class=\"code\">null</div><br><div class=\"code\">undefined</div><br><div class=\"code\">NaN</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "xVnd|gjT)]",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\nJavaScript: What will the following conditional statement evaluate to?<div><br /></div><div class=\"code\">false == '';</div>",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\n<div class=\"code\">true</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "qpV*IH[P##",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nJavaScript: What is the only case in which the strict equality operator will return <div class=\"code\">false</div> when supplied with the same two inputs?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\nWhen comparing <div class=\"code\">NaN</div> against itself."
+                    ],
+                    "flags": 0,
+                    "guid": "uhyYM/mO=`",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What is short-circuit evaluation?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nUsing the <div class=\"code\">||</div> or <div class=\"code\">&amp;&amp;</div> operators to quickly perform an action that would normally require more code."
+                    ],
+                    "flags": 0,
+                    "guid": "w.Ay$}U||?",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: How would short-circuit evaluation be used to ensure a string variable is never assigned an empty value?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\n<div>By comparing the attempted assigned value against any truthy string.</div><div><br /></div><div>Example:</div><div class=\"code\"><div>let aString = '';</div><div>let aNewString = aString || 'nothing';</div></div><div><br /></div><div>The above code will never allow <div class=\"code\">aNewString</div> to be assigned an empty value, as it will default to <div class=\"code\">'nothing'</div>.</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "Rb?H[`ff9",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\nJavaScript: What will happen when the following code is run?<div><br /></div><div class=\"code\"><div>let example = true;</div><div>example &amp;&amp; doSomething();</div></div>",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\nThe <div class=\"code\">doSomething</div> function will run only if <div class=\"code\">example</div> evaluates to <div class=\"code\">true</div>.&nbsp;<div><br /></div><div>This is an example of a short-circuit evaluation using the <div class=\"code\">&amp;&amp;</div> operator, the function runs because JavaScript is evaluating the conditional statement from left to right, short-circuiting evaluation if it encounters a false value.</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "y#AA+Q;8a;",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: How would short-circuit evaluation be used to run a function if a given value is true?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nBy pairing the value(s) to check with a function call, using <div class=\"code\">&amp;&amp;</div>.<div><br /></div><div>Example:</div><div class=\"code\"><div><div>let example = true;</div><div>example &amp;&amp; doSomething();</div></div></div><div><br /></div><div>The above code will call <div class=\"code\">doSomething()</div> if <div class=\"code\">example</div> evaluates to true.</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "ExHHE-j0,-",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\nJavaScript: What value will the following variable be assigned?<div><br /></div><div class=\"code\">let example = null || '' || false || 0;</div>",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\n<div class=\"code\">0</div><div><br /></div><div>A falsy value gets assigned because the conditional statement ended before a truthy value was read.</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "M3)FYNS(/`",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\nJavaScript: What value will the following variable be assigned?<div><br /></div><div class=\"code\">let example = 1 || 2 || 3 || 4;</div>",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\n<div class=\"code\">1</div><div><br /></div><div>The <div class=\"code\">||</div> conditional will stop evaluation immediately upon encountering a true value.</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "v$%Uz;4k4]",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What is the ternary operator?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\n<div class=\"code\">condition ? runIfTrue : runIfFalse;</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "M6*/:jqsO]",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: How are switch statements declared?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\n<div class=\"code\">switch (variable) {<div>&nbsp; &nbsp; &nbsp;case value: {</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; code;</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; break;</div><div>&nbsp; &nbsp; &nbsp;}</div><div>&nbsp; &nbsp; &nbsp;case value2: {</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; code;</div><div>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;break;</div><div>&nbsp; &nbsp; &nbsp;}</div><div>&nbsp; &nbsp; &nbsp;default: {</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; code;</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; break;</div><div>&nbsp; &nbsp; &nbsp;}</div><div>}</div></div>"
+                    ],
+                    "flags": 0,
+                    "guid": "k4[N{yAjDn",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\nJavaScript: What is another term for <div class=\"code\">!</div>, the not operator?",
+                        "Bang operator"
+                    ],
+                    "flags": 0,
+                    "guid": "fhuXR<?m:i",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: How can multiple variables be defined in a single line?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\nBy following variable declarations with a comma, and beginning the next assignment after it, minus the <div class=\"code\">let</div>, <div class=\"code\">const</div>, or <div class=\"code\">var</div> keyword.<div><br /></div><div>Example:</div><div class=\"code\">let a = 5, b = 'hello', c = true;</div><div><br /></div><div>This defines three variables of varying type that all have the capacity to be changed.</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "vTc!X>ETNm",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What is hoisting?",
+                        "Using a function before it is declared. It works, but is considered bad practice."
+                    ],
+                    "flags": 0,
+                    "guid": "J1Zj2R!4}.",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nJavaScript: What bad practice is the following code an example of?<div><br /></div><div class=\"code\"><div>sayHello();</div><div><br /></div><div>function sayHello () {</div><div>&nbsp; &nbsp; &nbsp;console.log('Hello!');<div>}</div></div></div>",
+                        "Hoisting"
+                    ],
+                    "flags": 0,
+                    "guid": "w<6YQ}s4|N",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: How is a basic function with no inputs declared?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div>By using the <div class=\"code\">function</div> keyword, followed by the function's identifier with <div class=\"code\">()</div> at the end, then the code block.</div><div><br /></div><div>Example:</div><div class=\"code\"><div>function identifier () {</div><div>&nbsp; &nbsp; &nbsp;code;</div><div>}</div></div>"
+                    ],
+                    "flags": 0,
+                    "guid": "x`r^6bZkFj",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: How are parameters specified in function declarations?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nWithin the parentheses, separated by commas.<div><br /></div><div>Example:</div><div class=\"code\">function findArea (width, height) {}</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "Pr+hTd%*Oe",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: When will a function use a default parameter?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nWhen there is no value passed for that parameter, or if the value passed is <div class=\"code\">undefined</div>."
+                    ],
+                    "flags": 0,
+                    "guid": "u$?Z$#C{Z#",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: How are default parameters specified?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nBy assigning the parameters in the parentheses a value using <div class=\"code\">=</div>.<div><br /></div><div>Example:</div><div class=\"code\">function greeting (name = 'stranger') {}</div><div><br /></div><div>If given no value or <div class=\"code\">undefined</div> for name when called, the function will use <div class=\"code\">'stranger'</div>.</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "rR{m7B]yrh",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What is the default return value for functions?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">undefined</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "Gr7umvvPJ!",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: How is an output value specified in functions?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nUsing the <div class=\"code\">return</div> keyword.<div><br /></div><div>Example:</div><div class=\"code\"><div>function findArea (width, height) {</div><div>&nbsp; &nbsp; &nbsp;return width * height;</div><div>}</div></div>"
+                    ],
+                    "flags": 0,
+                    "guid": "qPbaugNO!`",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nJavaScript: If the <div class=\"code\">return</div> keyword is used but with no value, what will it return?",
+                        "<div class=\"code\">undefined</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "jHDx`i[X:g",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What is a helper function?",
+                        "A function that runs from within another function."
+                    ],
+                    "flags": 0,
+                    "guid": "nN]I8#I&WF",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: How is a function declared using a function expression?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nBy declaring a variable and setting it equal to a function declaration, minus the identifier.<div><br /></div><div>Example:</div><div class=\"code\">const calculateArea = function (width, height) {<br />&nbsp; &nbsp; &nbsp;return width * height;<br />};</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "kD&w:57vA!",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What are nameless functions called?",
+                        "Anonymous functions"
+                    ],
+                    "flags": 0,
+                    "guid": "Btzpbknr7L",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: How are functions defined using function expressions called?",
+                        "By using their assigned variable's name as if it were the function name."
+                    ],
+                    "flags": 0,
+                    "guid": "vj^;sGp1wj",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What shorthand technique can be used in cases where a code block only contains a single line of code?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nThe code block curly braces may be omitted.<div><br /></div><div>Example:</div><div class=\"code\"><div>if (condition) {</div><div>&nbsp; &nbsp; &nbsp;return true;</div><div>}</div></div><div><br /></div><div>Can be syntactically refactored to:</div><div class=\"code\"><div>if (condition)&nbsp;return true;</div></div>"
+                    ],
+                    "flags": 0,
+                    "guid": "hHq|<E/UM}",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: How are function expressions declared using arrow notation?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nAs function expressions are usually declared, minus the <div class=\"code\">function</div> keyword, and adding the fat arrow <div class=\"code\">=&gt;</div> between the parentheses and the code block.<div><br /></div><div>Example:</div><div class=\"code\"><div>const calculateArea = (width, height) =&gt; {</div><div>&nbsp; &nbsp; &nbsp;return width * height;</div><div>};</div></div>"
+                    ],
+                    "flags": 0,
+                    "guid": "t8~M#_5JH8",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What is the most condensed form of function declarations called?",
+                        "Concise body"
+                    ],
+                    "flags": 0,
+                    "guid": "w)~>](ZEoL",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: When declaring a function using concise body, what is the only case in which no parentheses are required for parameter specification?",
+                        "When there is only one parameter."
+                    ],
+                    "flags": 0,
+                    "guid": "I1y33Aq<^N",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What is implicit return?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nWhen a function is composed of only one line of code, the <div class=\"code\">return</div> keyword may be omitted. Whatever that line evaluates to will be returned automatically."
+                    ],
+                    "flags": 0,
+                    "guid": "d!uE7fe%kV",
+                    "note_model_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What code can access a variable with block scope?",
+                        "Only code running from within that variable's containing code block."
+                    ],
+                    "flags": 0,
+                    "guid": "OB4`jgtf$<",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What code can access a variable with global scope?",
+                        "Any code"
+                    ],
+                    "flags": 0,
+                    "guid": "G{HgAt`+-$",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What happens when a variable is declared in one scope, then a variable of the same identifier is declared in a code block within the aforementioned scope?",
+                        "The variable in the code block will override the variable of greater scope, but only in the code block of its declaration."
+                    ],
+                    "flags": 0,
+                    "guid": "I`!*q`&]mC",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What is a variable called if it is defined within block scope?",
+                        "A local variable"
+                    ],
+                    "flags": 0,
+                    "guid": "ew&HO8F.+3",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What will be the output of the following code?<div><br></div><div class=\"code\"><div>let exampleArray = [ 'item1', 'item2', 'item3' ];</div><div>console.log(exampleArray);</div></div>",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">[ 'item1', 'item2', 'item3' ]</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "cPs7KfvhxH",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What are individual content items inside arrays called?",
+                        "Elements"
+                    ],
+                    "flags": 0,
+                    "guid": "e8{p2Fgj%<",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: How is an array variable declared using an array literal?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nBy arranging every element within a set of square brackets, separating them with commas, and assigning the whole thing to a variable.<div><br /></div><div>Example:</div><div class=\"code\">let exampleArray = [ 'item1', 56, false ];</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "d4#_)v!Yml",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: How is an individual element of an array targeted by its index in the array?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nBy using the array name, followed by the desired index's value encompased in square brackets.<div><br /></div><div>Example:</div><div class=\"code\"><div>let names = [ 'Bob', 'Jean', 'Mary' ];</div><div>let person = names[1];</div></div><div><br /></div><div>The variable <div class=\"code\">person</div> will be assigned a value of <div class=\"code\">'Jean'</div>. (Remember, arrays are zero-indexed.)</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "G+1wAE$q^B",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What is the default value returned when a nonexistant array element is referenced?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">undefined</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "wk$z|A~-pb",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript + HTML: What function returns an HTML element when given the ID of that element?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">document.getElementById(\"idName\")</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "z9{(;Mi+nc",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript + HTML: What JS property of HTML elements defines the content between the element's tags?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">innerHTML</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "I:Pp9qypt*",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript + HTML: What function takes a text argument, displays that as a message to the user along with a text input field in a pop-up window, and returns whatever text the user entered within that field?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">prompt(\"prompt text\")</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "H=9?=|Ko+1",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript + HTML: What function takes a text argument, and displays that text in a pop-up window?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">alert(\"alert text\")</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "Iy~k<**m-/",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript + HTML: What HTML tag allows for JavaScript code to be written directly into it?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\n<div class=\"code\">&lt;script&gt;&lt;/script&gt;</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "Kw>J3nl1im",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript + HTML: What HTML attribute is commonly used to give elements a name by which JavaScript code can reference them by?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">id</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "B2!Zq_zy)l",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript + HTML: What function takes a string input, and uses that string as if it were written in the raw HTML file?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">document.write(\"&lt;p&gt;elements&lt;/p&gt;\")</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "vZ)o,-9@le",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What method of numbers rounds the number to a given decimal place?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">toFixed(decimalPlace)</div><div><br /></div><div>Example:</div><div class=\"code\"><div>let decimal = 12.256;</div><div>decimal = decimal.toFixed(2);</div></div><div><br /></div><div>This will assign <div class=\"code\">decimal</div> a value of <div class=\"code\">12.26</div>.</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "La;lZfaRA2",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What is the difference between putting an increment or decrement assignment operator before and after the variable?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nPutting the operator before the variable performs the increment, then uses the value that results.<div>Putting the operator after the variable performs the operation with the current value and then increments the value.</div><div><br /></div><div>Example:</div><div class=\"code\">let variable = 0;<br />console.log(++variable); //This would log 1 to the console</div><div>as opposed to</div><div class=\"code\">console.log(variable++); //This would log 0 to the console</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "Bxk*+K?EV&",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nJavaScript: What method of <div class=\"code\">Math</div> returns the absolute value of the input?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">abs(number)</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "t9<lG_LlI$",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nJavaScript: What methods of <div class=\"code\">Math</div> return the input as an integer, rounded up or rounded down, respectively?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">ceil(number)</div><br /><div class=\"code\">floor(number)</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "fy^PQFsv,.",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nJavaScript: What method of <div class=\"code\">Math</div> returns a decimal value as a rounded integer?",
+                        "<div class=\"code\">round(number)</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "N#-/4L,F7N",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nJavaScript: What methods of <div class=\"code\">Math</div> take two inputs and return the larger one or smaller one, respectively?",
+                        "<div class=\"code\">max(number1, number2)</div><br /><div class=\"code\">min(number1, number2)</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "t-k6^}o}7:",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nJavaScript: What method of <div class=\"code\">Math</div> finds the square root of the input?",
+                        "<div class=\"code\">sqrt(number)</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "ugdKJ{]]D.",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What is the simplest way to convert a string value to a number value?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nBy passing the numeric string into the <div class=\"code\">Number</div> object's parentheses.<div><br /></div><div>Example:</div><div class=\"code\">let integer = Number(\"72\");</div><div><br /></div><div>The <div class=\"code\">integer</div> variable will be assigned a number value of <div class=\"code\">72</div>.</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "f;fA]5W2p$",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What character do all escape characters begin with?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">\\</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "u9oy|NPE+P",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What is the escape character for a new line?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">\\n</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "e!.HW[8L`u",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What is the escape character for tab?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">\\t</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "c.4oyo*@Cb",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What is the escape character for backspace?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">\\b</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "Q$A?k-JmNo",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What three visible characters require escape codes when being used in normal strings, depending on the character used to declare the string?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nSingle quote: <div class=\"code\">'</div><br>Double quote: <div class=\"code\">\"</div><br><div>Backslash: <div class=\"code\">\\</div></div><div>Backtick: <div class=\"code\">`</div></div>"
+                    ],
+                    "flags": 0,
+                    "guid": "l7z[hB0oU_",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What is the escape character for a backslash?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">\\\\</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "AN9-j}HE1E",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What is an escape character?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nA special combination of characters starting with <div class=\"code\">\\</div> that allows special characters to be inserted within strings without error.<div>It would require the use of either a template literal or an escape character to get quotation marks to be stored in a string value.</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "GIaOO^|:Z[",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\nJavaScript: How does the <div class=\"code\">+=</div> operator behave when used with strings?",
+                        "The two strings specified will concatenate as if they were added using <div class=\"code\">+</div>, but the result will be assigned to the variable to the left of the operator.<div><br></div><div>Example:</div><div class=\"code\"><div>let helloWorld = 'Hello';</div><div>helloWorld += ' world.';</div></div><div><br></div><div>The variable <div class=\"code\">helloWorld</div> will be assigned a value of <div class=\"code\">'Hello world.'</div>.</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "j^ZJib=IAl",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What method of strings returns the numeric index value of the first occurrence of a given string?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">indexOf('string')</div><br /><div><br /></div><div>Example:</div><div class=\"code\"><div>let someString = 'JavaScript';</div><div>let index = someString.indexOf('Script');</div></div><div><br /></div><div>The variable <div class=\"code\">index</div> will be assigned a value of <div class=\"code\">3</div>, because the input 'Script' begins at an index of <div class=\"code\">3</div>.</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "KkPPGThKs7",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What method of strings takes two number inputs, and returns the section of that string with a starting index of the first input, and a terminating index of the second input, or until the end if no second input it provided?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">slice(startingIndex, endingIndex)</div><br /><div><br /></div><div>Example:</div><div class=\"code\"><div>let someString = 'American dream';</div><div>someString = someString.slice(2, 11);</div></div><div><br /></div><div>The <div class=\"code\">someString</div> variable will be reassigned to a value of <div class=\"code\">'erican dre'</div>.</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "g8()g%*Awd",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What method of strings takes two number inputs, and returns the section of that string with a starting index of the first input, and a length of the second input?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">substr(startingIndex, length)</div><div><br /></div><div>Example:</div><div class=\"code\"><div>let someString = 'abcdefg';</div><div>someString = someString.substr(3, 4);</div></div><div><br /></div><div>The <div class=\"code\">someString</div> variable will be reassigned to a value of <div class=\"code\">'defg'</div>.</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "A#ac0NH1F`",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What method of strings takes two string inputs, and replaces the first instance of the first input with the second input?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">replace(stringToDelete, stringToInsert)</div><div><br /></div><div>Example:</div><div class=\"code\"><div>let someString = 'hey hey hey';</div><div>someString = someString.replace('hey', 'hello');</div></div><div><br /></div><div>The variable <div class=\"code\">someString</div> will be reassigned to a value of <div class=\"code\">'hello hey hey'</div>.</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "DQ0/xCjwm;",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What method of strings takes a string input, and splits that string into substrings based on the input, and returns the substrings as an array?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\nmargin-bottom: 1px;\n}\n</style>\n<div class=\"code\">split('separating character')</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "ts)[]Am=Z)",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript + HTML: What is the name of string methods that return the given string, but wrapped in an HTML element?",
+                        "HTML wrapper methods"
+                    ],
+                    "flags": 0,
+                    "guid": "f?Xw4_a/uZ",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: How many decimal digits of precision will JavaScript accurately remember?",
+                        "16"
+                    ],
+                    "flags": 0,
+                    "guid": "nwbMqjNUr<",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: How is a do...while loop declared?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\n<div class=\"code\">do {<div>&nbsp; &nbsp; &nbsp;code to perform once, then until the condition is true;<br><div>} while (condition);</div></div></div>"
+                    ],
+                    "flags": 0,
+                    "guid": "rX*~<4^r?f",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What is the purpose of a do...while loop?",
+                        "To run a bit of code once, no matter what, then repeat that code until a condition is met."
+                    ],
+                    "flags": 0,
+                    "guid": "CwU~%PPigF",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: How is a for...in loop declared?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\n<div class=\"code\">for (let indexing_variable of inumerable_list) {<div>&nbsp; &nbsp; &nbsp;code;</div><div>}</div></div>"
+                    ],
+                    "flags": 0,
+                    "guid": "Am`A<Bo8K^",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What is the purpose of the for...in loop?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\nTo iterate through a list of values within an object.<div><br /></div><div>Example:</div><div class=\"code\">const person = { name : \"Bob\", age : \"23\" };</div><div><br /></div><div class=\"code\"><div>for (i in person) {</div><div>&nbsp; &nbsp; &nbsp;code;</div><div>}</div></div><div><br /></div><div>The above code will iterate through every value within the <div class=\"code\">person</div> object, incrementing <div class=\"code\">i</div> with every iteration.</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "G.-;+]F|-6",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What method of arrays adds/removes values from an array and shifts the position of all other values to accomodate the change?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\n<div class=\"code\">splice(index, number_of_elements_to_remove)</div><div>or</div><div class=\"code\">splice(index, 0, first_item_to_add, second_item_to_add, ...)</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "oSsJa_3zrs",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What function of arrays returns the array as a string?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\n<div class=\"code\">toString()</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "K)wwXPf#]h",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "What method of arrays returns the array as a string, with each element separated by a given string?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\n<div class=\"code\">join('separator')</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "+h:q4`TPs",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What operator removes a given property from its parent object?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\n<div class=\"code\">delete</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "uoCqChydXp",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What function of arrays removes the last entry from the array?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\n<div class=\"code\">pop()</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "iBJUy8!:ZW",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What method of arrays adds a given value or values to the end of an array?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\n<div class=\"code\">push(value1, value2, ...)</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "q0ZzlZXglZ",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What function of arrays removes the first element of an array and moves all following elements to accomodate for the change?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\n<div class=\"code\">shift()</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "s*GvCU3GTP",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What method of arrays adds a given value or values to the beginning of an array?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\n<div class=\"code\">unshift(value1, value2, ...)</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "p[@cmH:%4D",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What operator evaluates whether or not a given object has a given property?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\n<div class=\"code\">in</div><div><br></div><div>Example:</div><div class=\"code\">'age' in person;</div><div><br></div><div>This will evaluate to true or false, depending on whether or not the <div class=\"code\">person</div> object has a property of name <div class=\"code\">age</div>.</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "jYVI8F{9I3",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: How is a constructor function for an object declared?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\nAs a function, with properties of the new object being assigned using the this keyword.<div><br></div><div>Example:</div><div class=\"code\"><div>function Person (name, age) {</div><div>&nbsp; &nbsp; &nbsp;this.name = name;</div><div>&nbsp; &nbsp; &nbsp;this.age = age;</div><div><br></div><div>&nbsp; &nbsp; &nbsp;this.ageOneYear = function () {</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; this.age++;</div><div>&nbsp; &nbsp; &nbsp;}</div><div>}</div></div><div><br></div><div>This is a declaration of an object constructor for a <div class=\"code\">Person</div> object with two properties, <div class=\"code\">name</div> and <div class=\"code\">age</div>, and a function <div class=\"code\">ageOneYear</div>.</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "G,-;Xep0B=",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: How is a new object created?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\nUsing the <div class=\"code\">new</div> keyword, and an object constructor.<div><br /></div><div>Example:</div><div class=\"code\">let person_one = new Person('John', 32);</div><div><br /></div><div>This will create a new <div class=\"code\">Person</div> object, which will be constructed according to the values passed into it.</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "w?GinQ+kIT",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: How can a variable that is shared between all instances of a certain object be created?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\nBy using an object prototype variable.<div><br></div><div>Example:</div><div class=\"code\">Person.prototype.free_will = true;</div><div><br></div><div>This will set a common <div class=\"code\">free_will</div> value for all <div class=\"code\">Person</div> objects to <div class=\"code\">true</div>.</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "w~wDULhxmd",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: How is a new object created through a constructor function?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\n<div class=\"code\">const my_object = new Object(parameters)</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "rrf<;NXmVE",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: How is a for...of loop declared?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\n<div class=\"code\">for (element of iterable) {<div>&nbsp; &nbsp; &nbsp;code;</div><div>}</div></div>"
+                    ],
+                    "flags": 0,
+                    "guid": "B/f}LRrxI1",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: What is the purpose of the for...of loop?",
+                        "To iterate through every element of an iterable object without keeping track of an indexing variable."
+                    ],
+                    "flags": 0,
+                    "guid": "I[3Z7|9!OP",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "JavaScript: How is data written to the console?",
+                        "<style>\n.code {\ndisplay: inline-block;\nfont-family: 'consolas';\ntext-align: left;\nbackground-color: #eee;\nborder: 1px solid #555;\npadding: 3px;\n}\n</style>\n<div class=\"code\">console.log(data)</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "f>W`aoF=un",
+                    "note_model_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+                    "tags": []
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "2092a0fe-d1a9-11ea-b1dd-8c8590a5600e",
+            "deck_config_uuid": "5a9474fa-d1ac-11ea-b1dd-8c8590a5600e",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [],
+            "name": "CSS",
+            "notes": []
+        }
+    ],
+    "crowdanki_uuid": "5a91a338-d1ac-11ea-b1dd-8c8590a5600e",
+    "deck_config_uuid": "5a91ac34-d1ac-11ea-b1dd-8c8590a5600e",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoAgain": 0,
+            "autoAlert": 0,
+            "autoAnswer": 0,
+            "autoplay": false,
+            "crowdanki_uuid": "5a91ac34-d1ac-11ea-b1dd-8c8590a5600e",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "replayq": false,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 1
+        },
+        {
+            "__type__": "DeckConfig",
+            "autoAgain": 0,
+            "autoAlert": 0,
+            "autoAnswer": 0,
+            "autoplay": false,
+            "crowdanki_uuid": "5a91bbd4-d1ac-11ea-b1dd-8c8590a5600e",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "replayq": false,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 1
+        },
+        {
+            "__type__": "DeckConfig",
+            "autoAgain": 0,
+            "autoAlert": 0,
+            "autoAnswer": 0,
+            "autoplay": false,
+            "crowdanki_uuid": "5a9247ac-d1ac-11ea-b1dd-8c8590a5600e",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "replayq": false,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 1
+        },
+        {
+            "__type__": "DeckConfig",
+            "autoAgain": 0,
+            "autoAlert": 0,
+            "autoAnswer": 0,
+            "autoplay": false,
+            "crowdanki_uuid": "5a9258a0-d1ac-11ea-b1dd-8c8590a5600e",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "replayq": false,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 1
+        },
+        {
+            "__type__": "DeckConfig",
+            "autoAgain": 0,
+            "autoAlert": 0,
+            "autoAnswer": 0,
+            "autoplay": false,
+            "crowdanki_uuid": "5a9269a8-d1ac-11ea-b1dd-8c8590a5600e",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "replayq": false,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 1
+        },
+        {
+            "__type__": "DeckConfig",
+            "autoAgain": 0,
+            "autoAlert": 0,
+            "autoAnswer": 0,
+            "autoplay": false,
+            "crowdanki_uuid": "5a9474fa-d1ac-11ea-b1dd-8c8590a5600e",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "replayq": false,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 1
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [],
+    "name": "Computer Science",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "20466c02-d1a9-11ea-b1dd-8c8590a5600e",
+            "css": ".card {\n font-family: Fira Code;\n font-size: 12px;\n text-align: center;\n color: black;\n}\n\n\n* {\nbackground-color: black !important;\n font-size: 12px;\nfont-family: Fira Code !important;\n}\n\n\n\n/*Start of style added by resize image add-on. Don't edit directly or the edition will be lost. Edit via the add-on configuration */\n.mobile .card img {height:unset  !important; width:unset  !important;}\n/*End of style added by resize image add-on*/",
+            "flds": [
+                {
+                    "font": "Fira Code",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 14,
+                    "sticky": false
+                },
+                {
+                    "font": "Fira Code",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 14,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\usepackage[utf8]{inputenc}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "Fira Code",
+                    "bqfmt": "",
+                    "bsize": 12,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "207b4f26-d1a9-11ea-b1dd-8c8590a5600e",
+            "css": ".card {\n font-family: Fira Code;\n font-size: 12px;\n text-align: center;\n}\n\n* {\nbackground-color: black !important;\nfont-family: Fira Code !important;\n}\n\n\n\n/*Start of style added by resize image add-on. Don't edit directly or the edition will be lost. Edit via the add-on configuration */\n.mobile .card img {height:unset  !important; width:unset  !important;}\n/*End of style added by resize image add-on*/",
+            "flds": [
+                {
+                    "font": "Fira Code",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 14,
+                    "sticky": false
+                },
+                {
+                    "font": "Fira Code",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 14,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic-13c7f",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "Fira Code",
+                    "bqfmt": "",
+                    "bsize": 12,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        },
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "207c0df8-d1a9-11ea-b1dd-8c8590a5600e",
+            "css": ".card {\n font-family: Fira Code;\n font-size: 12px;\n text-align: center;\n}\n\n* {\nbackground-color: black !important;\nfont-family: Fira Code !important;\n}\n\n\n\n/*Start of style added by resize image add-on. Don't edit directly or the edition will be lost. Edit via the add-on configuration */\n.mobile .card img {height:unset  !important; width:unset  !important;}\n/*End of style added by resize image add-on*/",
+            "flds": [
+                {
+                    "font": "Fira Code",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Fira Code",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic (with code block styling)",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "Fira Code",
+                    "bqfmt": "",
+                    "bsize": 12,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": []
+}
